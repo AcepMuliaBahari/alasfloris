@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alas Floris - Hadirkan Alam di Setiap Ruangan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'brand-green': {
+                light: '#22543d',
+                DEFAULT: '#1a4731',
+                dark: '#276749',
+              },
+              'brand-brown': {
+                light: '#966e52',
+                DEFAULT: '#795548',
+                dark: '#5d4037',
+              },
+              'brand-white': '#f7fafc',
+              'brand-bg-light': '#ffffff',
+              'brand-bg-dark': '#1a202c',
+              'brand-text-light': '#2d3748',
+              'brand-text-dark': '#e2e8f0',
+            },
+            fontFamily: {
+              sans: ['"Poppins"', 'sans-serif'],
+              serif: ['"Playfair Display"', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
